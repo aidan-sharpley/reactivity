@@ -4,6 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Spin from './routes/Spin';
 import Dewey from './routes/Dewey';
+import TicTacToe from './routes/TicTacToe';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter([
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
 	{
 		path: '/dew',
 		element: <Dewey />,
+	},
+	{
+		path: '/char',
+		element: <TicTacToe />,
 	},
 ]);
 
